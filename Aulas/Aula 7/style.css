@@ -1,0 +1,61 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#cabecalho{
+    font-weight: lighter; /* font em negrito */
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration-line:underline;
+}
+.forma {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    page: 0;
+}
+#menu{
+    text-align: right;
+    margin-top: 50px;
+}
+
+a{
+    color: #000;
+    text-decoration:none;
+}
+
+#destaque{
+    align-content: center;
+}
+
+#destaque h1{
+    font-size: 35px;
+}
+
+#destaque p {
+    font-style: italic;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+#imagemDestaque {
+    margin-left: 55px;
+}
+
+#imagemDestaque img{
+    width: 100%;
+    border:solid 1px #000;
+}

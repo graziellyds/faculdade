@@ -1,0 +1,49 @@
+<!DOCTYPE html >
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS-->
+        <link rel="stylesheet" type="text/css" href="../Aula 4 - Formulário/style.css">
+
+        <title>Curriculum - Aula 2</title>       
+    </head>
+    <body>
+         <h1>Aula 3 - formulário</h1>
+
+         <form action="https://formspree.io/f/xpwaodkl" method="POST">
+    
+            <label>Digite seu nome:</label><br>
+            <input placeholder="Digite.." type="text" required="required" name="nome"></input>
+            
+            <br>
+        
+            <label>Digite sua mensagem:</label><br>
+            <textarea rows="10" cols="70" placeholder="Digite sua mensagem.." required="required" name="mensagem">Mensagem</textarea>
+                      
+           <br>
+           
+           <label>Bairro:</label>
+           <ul>
+                <li> <input type="checkbox" id="1" name="São José"> São José</li>
+                <li> <input type="checkbox" id="2" name="Palhoça"> Palhoça</li>
+                <li><input type="checkbox" id="3" name="florianópolis"> Florianópolis</li>
+           </ul>
+           
+           <br>
+
+           <label>Faixa de Aluguel:</label>
+           <ul>
+                <li> <input type="radio" id="1" name="valorAluguel" value="ate500"> até $500 </li>
+                <li> <input type="radio" id="2" name="valorAluguel" value="501ate1000"> $501 até $1.000 </li>
+                <li> <input type="radio" id="" name="valorAluguel" value="1001ate2000"> $1001 até $2000 </li>
+           </ul>
+           <br>
+
+
+        
+            <button type="submit">Enviar</button>
+        
+        </form>
+    </body>
+</html>

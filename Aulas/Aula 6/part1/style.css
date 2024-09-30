@@ -1,0 +1,53 @@
+/*AULA 6*/
+
+ #div1{
+    background-color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div1-1 {
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto; /*calcula automaticamente a mesma marge para ambos */
+}  
+h1,h2{
+    text-transform: uppercase;
+}
+#div1_1, h1, h2 {
+    margin: 0;
+}
+
+#card1-lista{
+    list-style-type: none;
+}
+
+p {
+    text-align: justify;
+}
+
+#div2{
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-column-gap: 20px;
+
+}
+
+#div2-1, #div2-2{
+    display: flex;
+    flex-direction: column; /* sentido vertical*/
+    row-gap: 20px; /*espaço entre o elemento*/
+}
+
+.card h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+font-family: Arial, Helvetica, sans-serif;
+border: 1px solid gray;
+border-radius: 10px;
+padding: 20px;
+}
+

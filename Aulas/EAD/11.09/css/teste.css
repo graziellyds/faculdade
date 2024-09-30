@@ -1,0 +1,36 @@
+*{  
+    font-family: sans-serif;
+
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+
+#div2, #card1{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/
+    }
+
+.mini-card{
+    flex: 1;
+	margin: 5px;
+	background: rgb(255, 200, 168);
+	text-align: center;
+	/*font-size: 10px;*/
+}
+
+
+#div2-c1, #div2-c2{
+    flex-direction: row;
+    /*border: 1px solid #ccc;*/
+}
+#div2-c2 {
+    margin: 5px;
+    text-align: justify;
+}
+
+img{
+    width: 50%;
+}
