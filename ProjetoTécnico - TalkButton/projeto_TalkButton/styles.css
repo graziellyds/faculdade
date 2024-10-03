@@ -26,7 +26,7 @@ padding: 1.5rem 6rem;
 
 .linear_rainbow{
     background-image: linear-gradient(90deg, #f335b3, #f8c326 ,#74f239 );
-    padding: 1.5px;
+    padding: 0.2rem;
 }
 
 .nav-list{
@@ -37,6 +37,10 @@ padding: 1.5rem 6rem;
     display: flex;
     justify-content: center;
     list-style: none; 
+}
+
+.catchphrase {
+    color 
 }
 
 .nav-link{
@@ -64,5 +68,10 @@ padding: 1.5rem 6rem;
     padding: 1rem;
 }
 
-13:46 DE VIDEO
-https://www.youtube.com/watch?v=P9cSVCGj0I0&ab_channel=LarissaKich
+.mobile-menu-icon img {
+    width: 2rem;
+
+}
+
+/* 13:46 DE VIDEO
+https://www.youtube.com/watch?v=P9cSVCGj0I0&ab_channel=LarissaKich */
