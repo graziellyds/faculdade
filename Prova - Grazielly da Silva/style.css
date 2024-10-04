@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e4e4e4;  
+}
+
+.backgroud {
+    display: flex;
+    flex-direction: column; /* sentido HORIZONTAL os itens item2-1-1 até 4*/
+    flex-wrap:wrap; /*pular linha quanto chegar no limite do container-2-1 (PAI)*/
+    gap:5px ; /*espaço entre o elemento*/  
+    justify-content: center; /*Alinha ITENS no eixo VERTICAL*/   
+}
+
+.container-1{
+    display: grid;
+    background-color: #ffffff;   
+    grid-template-columns: 1fr 1fr 1fr; 
+    margin: 10rem 10rem 0rem;
+    height: 200px;
+    padding: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+}   
+
+.text, h1 , h3 {
+    padding: 0.5rem;
+}
+
+.logo{
+    padding: 0.5rem;
+}
+.area-text-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+}
+
+.area-text-item input{
+    border-radius: 0,5rem;
+    padding: 0.5rem;
+}
+
+.button{
+    display: flex; /* itens na vertical*/
+    flex-direction: row;/* itens na vertical*/
+    justify-content: space-around;/* itens espalhado ao longo da div*/
+    text-align: center;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.button-item {
+    width: 100%;
+    background-color: #e4e4e4;
+    border-radius: 1rem;
+    padding: 0.5rem; 
+}
+
+.logo{
+    justify-content:right;
+    align-items: stretch;
+}
+
+
+.logo-img img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns:2fr 1fr; 
+    gap:5px/*linha*/  10px /*coluna*/;   /*Espaçamento entre as LINHAS&COLUNA (tipo uma margem)*/ 
+    margin: 0.5rem 10rem 0rem;
+} 
+#menu {
+    text-align: end;
+}
+
+#menu ul {
+    display: flex; /* itens na vertical*/
+    flex-direction: row;/* itens na vertical*/
+    justify-content: space-around;/* itens espalhado ao longo da div*/
+    text-align: center;
+    list-style: none;
+}
+
+   
+
+
