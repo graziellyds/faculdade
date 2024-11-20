@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../aula 9 - exemplo2/styles.css">
+   
+    <title>Aula 9 - Exemplo 2</title>
+</head>
+<body>
+    <div id="id_button_click" onclick="clicar ()" onmouseenter=" mouse_enter()" onmouseout="mouse_out()">
+        Botão
+    </div>
+    <script>
+        function clicar(){
+        //opção 1 - backgroud
+            //var sId = window.document.getElementById("id_button_click")
+            //sId.style.background = "pink" 
+        //opção 2 - backgroud
+            window.document.getElementById("id_button_click").style.background = "pink"
+        //opção 3 - backgroud
+            //id_button_click.style.background = 'pink' 
+        
+        //opção 2 - color
+             window.document.getElementById("id_button_click").style.color = 'black'
+        
+        //opção 1 - innerHTML
+            //var sTagName = window.document.getElementById('id_button_click')
+            //sTagName.innerHTML ='exemplo 1'
+        //opção 2 - innerHTML
+            window.document.getElementById("id_button_click").innerHTML= 'ONCLICK'
+        //opção 3 - innerHTML
+            //id_button_click.innerText = "exemplo 3"         
+        }
+
+        function mouse_enter(){
+            //opção 1 - background 
+            var id_mouse_entra = window.document.getElementById('id_button_click')
+            id_mouse_entra.style.background = "aquamarine" 
+
+            //opção 2 - color
+             window.document.getElementById("id_button_click").style.color = 'red'
+        
+            //opção 2 - innerHTML
+            //window.document.getElementById("id_button_click").innerHTML="ONMOUSEENTER"  
+        }
+
+
+        function mouse_out(){
+                     //opção 2 - backgroud
+            window.document.getElementById("id_button_click").style.background = "gray"
+        //opção 3 - backgroud
+            //id_button_click.style.background = 'pink' 
+        
+        //opção 2 - color
+             window.document.getElementById("id_button_click").style.color = 'black'
+        
+        //opção 1 - innerHTML
+            //var sTagName = window.document.getElementById('id_button_click')
+            //sTagName.innerHTML ='exemplo 1'
+        //opção 2 - innerHTML
+            window.document.getElementById("id_button_click").innerHTML= 'BOTÃO (mouse_out)'
+        }
+        
+    </script>
+</body>
+</html>
